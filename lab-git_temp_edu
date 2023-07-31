@@ -1,0 +1,525 @@
+git_temp_edu
+harsh@SWAPNAJA MINGW64 ~ (master)
+$
+
+harsh@SWAPNAJA MINGW64 ~ (master)
+$ mkdir temp_proj_git
+
+harsh@SWAPNAJA MINGW64 ~ (master)
+$
+
+harsh@SWAPNAJA MINGW64 ~ (master)
+$ cd te
+Templates/         Terraform_Project/ temp_proj_git/
+
+harsh@SWAPNAJA MINGW64 ~ (master)
+$ cd temp
+Templates/     temp_proj_git/
+
+harsh@SWAPNAJA MINGW64 ~ (master)
+$ cd temp_proj_git/pr
+bash: cd: temp_proj_git/pr: No such file or directory
+
+harsh@SWAPNAJA MINGW64 ~ (master)
+$ cd temp_proj_git/
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$ git status
+warning: could not open directory 'AppData/Local/Application Data/': Permission denied
+warning: could not open directory 'Application Data/': Permission denied
+warning: could not open directory 'Cookies/': Permission denied
+warning: could not open directory 'Local Settings/': Permission denied
+warning: could not open directory 'My Documents/': Permission denied
+warning: could not open directory 'NetHood/': Permission denied
+warning: could not open directory 'PrintHood/': Permission denied
+warning: could not open directory 'Recent/': Permission denied
+warning: could not open directory 'SendTo/': Permission denied
+warning: could not open directory 'Start Menu/': Permission denied
+warning: could not open directory 'Templates/': Permission denied
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../.bash_history
+        ../.gitconfig
+        ../.jenkins/
+        ../.lesshst
+        ../.vscode/
+        ../AppData/
+        ../Contacts/
+        ../Desktop/
+        ../Documents/
+        ../Downloads/
+        ../Favorites/
+        ../IntelGraphicsProfiles/
+        ../Jenkins/
+        ../Jenkins_Project/
+        ../Links/
+        ../Music/
+        ../MyProject/
+        ../NTUSER.DAT
+        ../NTUSER.DAT{e3344612-539f-11ed-a23a-9ed4adbc623f}.TM.blf
+        ../NTUSER.DAT{e3344612-539f-11ed-a23a-9ed4adbc623f}.TMContainer00000000000000000001.regtrans-ms
+        ../NTUSER.DAT{e3344612-539f-11ed-a23a-9ed4adbc623f}.TMContainer00000000000000000002.regtrans-ms
+        ../OneDrive/
+        ../Pictures/
+        ../Saved Games/
+        ../Searches/
+        ../Sublime Text/
+        ../Terraform_Project/
+        ../Videos/
+        ../ntuser.dat.LOG1
+        ../ntuser.dat.LOG2
+        ../ntuser.ini
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$ ls -lrt
+total 0
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$ git init
+Initialized empty Git repository in C:/Users/harsh/temp_proj_git/.git/
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$ ls -lrt
+total 0
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$ ls -alrt
+total 16
+drwxr-xr-x 1 harsh 197121 0 Jul 31 19:33 ../
+drwxr-xr-x 1 harsh 197121 0 Jul 31 19:34 ./
+drwxr-xr-x 1 harsh 197121 0 Jul 31 19:34 .git/
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$ vi file1.txt
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$ touch file2.c file3.java
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$ ls -lrt
+total 1
+-rw-r--r-- 1 harsh 197121 18 Jul 31 19:35 file1.txt
+-rw-r--r-- 1 harsh 197121  0 Jul 31 19:35 file2.c
+-rw-r--r-- 1 harsh 197121  0 Jul 31 19:35 file3.java
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        file1.txt
+        file2.c
+        file3.java
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$ git add file1.txt
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   file1.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        file2.c
+        file3.java
+
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$ git commit -m "this is first commit for my file1.txt"
+[master (root-commit) 260fead] this is first commit for my file1.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file1.txt
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        file2.c
+        file3.java
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$ git log
+commit 260fead58f2c4323f3526c7e30a60114c2eb2db1 (HEAD -> master)
+Author: harshavardhan <harsh5kalsait@gmail.com>
+Date:   Mon Jul 31 19:37:08 2023 +0530
+
+    this is first commit for my file1.txt
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$ git diff
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$ vi file1.txt
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$ git diff
+diff --git a/file1.txt b/file1.txt
+index a83aef1..34e0dbf 100644
+--- a/file1.txt
++++ b/file1.txt
+@@ -1 +1,2 @@
+ echo "First file"
++echo "some change"
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   file1.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        file2.c
+        file3.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$ git log
+commit 260fead58f2c4323f3526c7e30a60114c2eb2db1 (HEAD -> master)
+Author: harshavardhan <harsh5kalsait@gmail.com>
+Date:   Mon Jul 31 19:37:08 2023 +0530
+
+    this is first commit for my file1.txt
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$ git add .
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$ git log
+commit 260fead58f2c4323f3526c7e30a60114c2eb2db1 (HEAD -> master)
+Author: harshavardhan <harsh5kalsait@gmail.com>
+Date:   Mon Jul 31 19:37:08 2023 +0530
+
+    this is first commit for my file1.txt
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   file1.txt
+        new file:   file2.c
+        new file:   file3.java
+
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$ git commit -m "I want to push all 3 files on remote"
+[master 50eae79] I want to push all 3 files on remote
+ 3 files changed, 1 insertion(+)
+ create mode 100644 file2.c
+ create mode 100644 file3.java
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$ git remote add temp_project_git https://github.com/hkalsait/temp_git_edu.git
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$ git push temp_project_git master
+info: please complete authentication in your browser...
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (7/7), 564 bytes | 564.00 KiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/hkalsait/temp_git_edu.git
+ * [new branch]      master -> master
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+g
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$ touch offline-file.txt
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$ ls -lrt
+total 1
+-rw-r--r-- 1 harsh 197121  0 Jul 31 19:35 file2.c
+-rw-r--r-- 1 harsh 197121  0 Jul 31 19:35 file3.java
+-rw-r--r-- 1 harsh 197121 37 Jul 31 19:38 file1.txt
+-rw-r--r-- 1 harsh 197121  0 Jul 31 19:48 offline-file.txt
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$ git add .
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   offline-file.txt
+
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$ git commit -m "new file in the offline"
+[master 49ef1b4] new file in the offline
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 offline-file.txt
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$ git push temp_project_git master
+To https://github.com/hkalsait/temp_git_edu.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/hkalsait/temp_git_edu.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$ ls -lrt
+total 1
+-rw-r--r-- 1 harsh 197121  0 Jul 31 19:35 file2.c
+-rw-r--r-- 1 harsh 197121  0 Jul 31 19:35 file3.java
+-rw-r--r-- 1 harsh 197121 37 Jul 31 19:38 file1.txt
+-rw-r--r-- 1 harsh 197121  0 Jul 31 19:48 offline-file.txt
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$ git fetch temp_project_git master
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 683 bytes | 75.00 KiB/s, done.
+From https://github.com/hkalsait/temp_git_edu
+ * branch            master     -> FETCH_HEAD
+   50eae79..ca4d9ed  master     -> temp_project_git/master
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$ ls -lrt
+total 1
+-rw-r--r-- 1 harsh 197121  0 Jul 31 19:35 file2.c
+-rw-r--r-- 1 harsh 197121  0 Jul 31 19:35 file3.java
+-rw-r--r-- 1 harsh 197121 37 Jul 31 19:38 file1.txt
+-rw-r--r-- 1 harsh 197121  0 Jul 31 19:48 offline-file.txt
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$ git pull temp_project_git master
+From https://github.com/hkalsait/temp_git_edu
+ * branch            master     -> FETCH_HEAD
+Merge made by the 'ort' strategy.
+ online-file | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 online-file
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$ l s-lrt
+bash: l: command not found
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$ ls -lrt
+total 2
+-rw-r--r-- 1 harsh 197121  0 Jul 31 19:35 file2.c
+-rw-r--r-- 1 harsh 197121  0 Jul 31 19:35 file3.java
+-rw-r--r-- 1 harsh 197121 37 Jul 31 19:38 file1.txt
+-rw-r--r-- 1 harsh 197121  0 Jul 31 19:48 offline-file.txt
+-rw-r--r-- 1 harsh 197121 36 Jul 31 19:50 online-file
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
+
+harsh@SWAPNAJA MINGW64 ~/temp_proj_git (master)
+$
